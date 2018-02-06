@@ -466,3 +466,7 @@ h4 {
 .button_details:hover {
     opacity: 0.7;
 }
+
+footer {
+    background-color: black;
+}
