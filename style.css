@@ -1,0 +1,468 @@
+html {
+    box-sizing: border-box;
+
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*UNIVERSAL STYLES */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    padding: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+    position: relative;
+    flex-wrap: wrap;
+
+    margin: 0;
+    /*border:1px solid blue;*/
+}
+
+h3 {
+    width: 100%;
+    font-size: 150%;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+h4 {
+    width: 100%;
+    font-size: 100%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #797979;
+
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+
+.slogan {
+    width: 100%;
+    font-size: 150%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+    position: relative;
+    flex-wrap: wrap;
+    /*border:1px solid blue;*/
+}
+
+
+
+
+/*PAGE HEADER */
+
+#pageHeader {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    flex-wrap: wrap;
+
+}
+
+/*NAV*/
+
+#pageHeader .nav {
+    width: 100vw;
+    height: 10vh;
+
+    background: #fff;
+
+    display: flex;
+    flex-direction: row;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+
+
+}
+
+#pageHeader .nav .logo_nav {
+    width: 50vw;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 10px;
+
+}
+
+
+#pageHeader .nav .logo_nav:hover {
+    opacity: 0.7;
+}
+
+#pageHeader .nav .nav_links {
+    width: 50vw;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+#pageHeader .nav .nav_links a {
+
+    align-content: space-around;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+
+    font-family: sans-serif, "roboto";
+    color: lightslategray;
+}
+
+#pageHeader .nav .nav_links a:hover {
+
+    opacity: 0.7;
+    border-bottom: 2px solid #999;
+
+}
+
+
+
+#pageHeader .bg_image {
+
+    width: 100vw;
+    height: 85vh;
+
+    background-image: url("main_b.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    flex-wrap: wrap;
+
+}
+
+
+#pageHeader .bg_image .logo_russian {
+
+    width: 100%;
+    text-align: center;
+    font-size: 350%;
+    padding: 10px;
+
+    text-shadow: 2px 2px #333;
+
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+    position: relative;
+    flex-wrap: wrap;
+
+    margin: 0;
+    /*border:1px solid blue;*/
+}
+
+#pageHeader .logo_russian p {
+
+    width: 100%;
+    text-align: center;
+    font-size: 60%;
+    padding: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+    position: relative;
+    flex-wrap: wrap;
+
+    margin: 0;
+    /*border:1px solid blue;*/
+}
+
+
+#pageHeader .logo img {
+    width: auto;
+    height: 80%;
+
+    padding-left: 60px;
+
+    /*border:1px solid blue;*/
+}
+
+#pageHeader .logo img:hover {
+    opacity: .7;
+}
+
+#pageHeader .slogan h3 {}
+
+/*MENU SECTION*/
+
+.heading {
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line_container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.line_container .line {
+    width: 80vw;
+    height: 1px;
+    background-color: #757575;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content_container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#menu_items {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    padding-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+    /*border:1px solid blue;*/
+}
+
+#menu_items .container {
+    width: 18vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+
+    margin-top: 5%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: row;
+
+    -webkit-box-shadow: 2px 2px 5px rgba(230, 230, 230, 1);
+    -moz-box-shadow: 2px 2px 5px rgba(230, 230, 230, 1);
+    box-shadow: 2px 2px 5px rgba(230, 230, 230, 1);
+}
+
+
+.container .product-img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    z-index: 300;
+
+}
+
+.container:hover {
+    opacity: 0.7;
+}
+
+.container .discount {
+    width: 20%;
+    height: 20%;
+
+    position: absolute;
+
+    z-index: 500;
+}
+
+.container .discount .red_box {
+    width: auto;
+    height: auto;
+    background: #bc122e;
+
+    margin-top: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+.container .discount .red_box .text {
+
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+    padding: 3px;
+
+    position: relative;
+
+}
+
+.container .heading {
+    width: 100%;
+    font-size: 110%;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: 500;
+
+    position: relative;
+}
+
+.container .short_description {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 80%;
+
+    font-weight: 600;
+}
+
+.container .allergins {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.container .allergins .nuts {
+    width: 200px;
+    height: auto;
+
+    padding: 0;
+}
+
+.container .price {
+    width: 100%;
+    font-size: 110%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+    position: relative;
+}
+
+
+.container .region {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 80%;
+
+    font-weight: 600;
+}
+
+.button_details {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.button_details:hover {
+    opacity: 0.7;
+}
